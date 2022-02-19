@@ -1,0 +1,93 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  background-image: url(images/so-white.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  margin: 8px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 72px;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+
+.header p {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  margin-top: -12px;
+  margin-left: -92px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px darkgray;
+  border-style: ridge;
+}
+
+.grid div {
+  display: flex;
+}
+
+.grid div div {
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+  margin: 0px;
+  flex: 0 0 12%;
+  padding-right: 12px;
+
+  flex: 0;
+}
+
+.selected {
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+}
+
+button {
+  background-color: beige;
+  padding: 1px 10px;
+  width: 80px;
+}
